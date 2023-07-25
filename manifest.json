@@ -1,14 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Browser Extension Template",
+  "name": "Airbnb No Splitview",
   "version": "0.0.1",
-  "description": "This is a starter template for a Chrome browesr extension.",
+  "description": "This Chrome browser extension hides splitview listings on Airbnb.",
    "permissions": ["scripting"],
   "icons": {
-    "16": "images/hide-emoji-16.png",
-    "32": "images/hide-emoji-32.png",
-    "48": "images/hide-emoji-48.png",
-    "128": "images/hide-emoji-128.png"
+    "16": "images/marker-emoji-16.png",
+    "32": "images/marker-emoji-32.png",
+    "48": "images/marker-emoji-48.png",
+    "128": "images/marker-emoji-128.png"
 },
 "background": {
     "service_worker": "scripts/background.js"
@@ -16,21 +16,23 @@
 "web_accessible_resources": [
   {
     "resources": ["css/*.css"],
-    "extension_ids": [
-      ""
+        "extension_ids": [
+      "fmabeophhacohednbiioliekghfccfda"
     ]
     }
   ],
 "content_scripts": [
     {
         "matches": [
-        "*://www.someurl.com/*"
+        "*://*.airbnb.com/s/*",
+        "*://*.airbnb.es/s/*"
       ],
       "css": ["css/global.css"]
     }
 ],
   "host_permissions": [
-    "*://www.someurl.com/*"
+    "*://*.airbnb.com/*",
+    "*://*.airbnb.es/*"
   ],
   "action": {
       "default_popup": "popup.html"

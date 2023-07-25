@@ -1,3 +1,4 @@
-.css-selector {
+/* button:has(div):has(div):has(div):has(div):has(svg), */
+div[data-testid="split-stays"] {
   display: none !important;
 }
