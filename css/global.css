@@ -1,4 +1,6 @@
-/* button:has(div):has(div):has(div):has(div):has(svg), */
-div[data-testid="split-stays"] {
+button:has(div):has(div):has(div):has(div):has(svg[aria-label="Split stay"]),
+div[data-testid="split-stays"],
+.t1wk5n1c,
+.sbylqvx {
   display: none !important;
 }
