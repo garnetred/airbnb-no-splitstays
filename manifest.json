@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Airbnb No Splitview",
+  "name": "Airbnb No Split Stays",
   "version": "0.0.1",
   "description": "This Chrome browser extension hides splitview listings on Airbnb.",
    "permissions": ["scripting"],
