@@ -3,6 +3,9 @@
 ## Abstract
 This Chrome browser extension hides split-stays on Airbnb. Split stays allow you to stay at more than one location for a set period of time - for example, if you were looking for a place to stay in Amsterdam for two weeks, you might see several split stay options where you could stay at one rental for a few days and the other for the rest of the time. Unfortunately, there's no way to disable this, so I thought I would create a browser extension to give users more options.
 
+## Donate 
+You can support this extension by [buying me a coffee](https://www.buymeacoffee.com/decemberthedeveloper) to help me continue to make free, user-friendly browser extensions.
+
 Note: Currently this extension only works on airbnb.com and airbnb.es - but in the future I hope to add more of the airbnb domain extensions.
 
 ## Tech Stack
