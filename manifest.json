@@ -38,15 +38,15 @@
     }
 ],
   "host_permissions": [
-    "*://*.airbnb.com/*",
-    "*://*.airbnb.es/*",
-    "*://*.airbnb.mx/*",
-    "*://*.airbnb.co.uk/*",
-    "*://*.airbnb.ca/*",
-    "*://*.airbnb.de/*",
-    "*://*.airbnb.fr/*",
-    "*://*.airbnb.it/*",
-    "*://*.airbnb.com.br/*"
+    "*://*.airbnb.com/s/*",
+    "*://*.airbnb.es/s/*",
+    "*://*.airbnb.mx/s/*",
+    "*://*.airbnb.co.uk/s/*",
+    "*://*.airbnb.ca/s/*",
+    "*://*.airbnb.de/s/*",
+    "*://*.airbnb.fr/s/*",
+    "*://*.airbnb.it/s/*",
+    "*://*.airbnb.com.br/s/*"
   ],
   "action": {
       "default_popup": "popup.html"
