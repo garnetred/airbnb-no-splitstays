@@ -3,7 +3,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (
     changeInfo.status === "complete" &&
     tabUrl &&
-    tabUrl.includes("airbnb.com" || "airbnb.es"
+    tabUrl.includes("airbnb.es" ||
 "airbnb.ae" ||
 "airbnb.al "||
 "airbnb.am "||
@@ -21,7 +21,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 "airbnb.co.il" ||
 "airbnb.co.in" ||
 "airbnb.co.kr" ||
-"airbnb.com" ||
 "airbnb.com.ar" ||
 "airbnb.com.au" ||
 "airbnb.com.bo "||
@@ -56,7 +55,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 "airbnb.cz" ||
 "airbnb.de" ||
 "airbnb.dk" ||
-"airbnb.es" ||
 "airbnb.fi" ||
 "airbnb.fr" ||
 "airbnb.gr" ||
@@ -78,7 +76,8 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
 "airbnb.rs" ||
 "airbnb.ru" ||
 "airbnb.se" ||
-"airbnb.si")
+"airbnb.si" ||
+"airbnb.com")
   ) {
     chrome.scripting.insertCSS({
       target: { tabId: tabId },
