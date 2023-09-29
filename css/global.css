@@ -1,6 +1,14 @@
 button:has(div):has(div):has(div):has(div):has(svg[aria-label="Split stay"]),
+button:has(div):has(div):has(div):has(div):has(
+    svg[aria-label="Estancia combinada"]
+  ),
+button:has(div):has(div):has(div):has(div):has(
+    svg[aria-label="Estancia conectada"]
+  ),
 div[data-testid="split-stays"],
 .t1wk5n1c,
-.sbylqvx {
+.sbylqvx,
+.sffcsco,
+.ht87d5e {
   display: none !important;
 }
