@@ -9,7 +9,9 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     "airbnb.mx",
     "airbnb.co.uk",
     "airbnb.ca",
-    "airbnb.cn",
+    "airbnb.de",
+    "airbnb.fr",
+    "airbnb.it",
     "airbnb.com.br",
   ];
   console.log("tabUrl", tabUrl);

@@ -24,15 +24,29 @@
 "content_scripts": [
     {
         "matches": [
-        "*://*.airbnb.com/s/*",
-        "*://*.airbnb.es/s/*"
+       "*://*.airbnb.com/*",
+        "*://*.airbnb.es/*",
+        "*://*.airbnb.mx/*",
+        "*://*.airbnb.co.uk/*",
+        "*://*.airbnb.ca/*",
+        "*://*.airbnb.de/*",
+        "*://*.airbnb.fr/*",
+        "*://*.airbnb.it/*",
+        "*://*.airbnb.com.br/*"
       ],
       "css": ["css/global.css"]
     }
 ],
   "host_permissions": [
     "*://*.airbnb.com/*",
-    "*://*.airbnb.es/*"
+    "*://*.airbnb.es/*",
+    "*://*.airbnb.mx/*",
+    "*://*.airbnb.co.uk/*",
+    "*://*.airbnb.ca/*",
+    "*://*.airbnb.de/*",
+    "*://*.airbnb.fr/*",
+    "*://*.airbnb.it/*",
+    "*://*.airbnb.com.br/*"
   ],
   "action": {
       "default_popup": "popup.html"

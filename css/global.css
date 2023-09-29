@@ -5,6 +5,18 @@ button:has(div):has(div):has(div):has(div):has(
 button:has(div):has(div):has(div):has(div):has(
     svg[aria-label="Estancia conectada"]
   ),
+button:has(div):has(div):has(div):has(div):has(
+    svg[aria-label="Verbundener Aufenthalt"]
+  ),
+button:has(div):has(div):has(div):has(div):has(
+    svg[aria-label="Soggiorni collegati"]
+  ),
+button:has(div):has(div):has(div):has(div):has(
+    svg[aria-label="Séjour en deux temps"]
+  ),
+button:has(div):has(div):has(div):has(div):has(
+    svg[aria-label="Estadias combinadas"]
+  ),
 div[data-testid="split-stays"],
 .t1wk5n1c,
 .sbylqvx,
