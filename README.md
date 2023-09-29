@@ -6,7 +6,7 @@ This Chrome browser extension hides split-stays on Airbnb. Split stays allow you
 ## Donate 
 You can support this extension by [buying me a coffee](https://www.buymeacoffee.com/decemberthedeveloper) to help me continue to make free, user-friendly browser extensions.
 
-Note: Currently this extension only works on airbnb.com and airbnb.es - but in the future I hope to add more of the airbnb domain extensions.
+Note: Currently this extension only works on airbnb.com, airbnb.es, airbnb.mx, airbnb.co.uk, airbnb.ca, airbnb.de, airbnb.fr, airbnb.it, and airbnb.com.br - but in the future I hope to add more of the Airbnb domain extensions.
 
 ## Tech Stack
 This project uses vanilla JS, CSS, and HTML.
