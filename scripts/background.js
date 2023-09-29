@@ -3,7 +3,17 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (
     changeInfo.status === "complete" &&
     tabUrl &&
-    tabUrl.includes("airbnb.com" || "airbnb.es")
+    tabUrl.includes(
+      "airbnb.com" ||
+        "airbnb.es" ||
+        "airbnb.mx" ||
+        "airbnb.co.uk" ||
+        "airbnb.ca" ||
+        "airbnb.de" ||
+        "airbnb.fr" ||
+        "airbnb.it" ||
+        "airbnb.com.br",
+    )
   ) {
     chrome.scripting.insertCSS({
       target: { tabId: tabId },

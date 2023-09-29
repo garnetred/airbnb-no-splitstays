@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Airbnb No Split Stays",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This Chrome browser extension hides splitview listings on Airbnb.",
    "permissions": ["scripting"],
   "icons": {
@@ -24,15 +24,29 @@
 "content_scripts": [
     {
         "matches": [
-        "*://*.airbnb.com/s/*",
-        "*://*.airbnb.es/s/*"
+   "*://*.airbnb.com/s/*",
+    "*://*.airbnb.es/s/*",
+    "*://*.airbnb.mx/s/*",
+    "*://*.airbnb.co.uk/s/*",
+    "*://*.airbnb.ca/s/*",
+    "*://*.airbnb.de/s/*",
+    "*://*.airbnb.fr/s/*",
+    "*://*.airbnb.it/s/*",
+    "*://*.airbnb.com.br/s/*"
       ],
       "css": ["css/global.css"]
     }
 ],
   "host_permissions": [
-    "*://*.airbnb.com/*",
-    "*://*.airbnb.es/*"
+    "*://*.airbnb.com/s/*",
+    "*://*.airbnb.es/s/*",
+    "*://*.airbnb.mx/s/*",
+    "*://*.airbnb.co.uk/s/*",
+    "*://*.airbnb.ca/s/*",
+    "*://*.airbnb.de/s/*",
+    "*://*.airbnb.fr/s/*",
+    "*://*.airbnb.it/s/*",
+    "*://*.airbnb.com.br/s/*"
   ],
   "action": {
       "default_popup": "popup.html"
