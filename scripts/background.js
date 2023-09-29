@@ -15,7 +15,6 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
         "airbnb.com.br",
     )
   ) {
-    console.log("on working page");
     chrome.scripting.insertCSS({
       target: { tabId: tabId },
       files: ["css/global.css"],
